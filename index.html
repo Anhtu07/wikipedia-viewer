@@ -15,25 +15,31 @@
 
 <body>
   <link href="https://fonts.googleapis.com/css?family=Ubuntu:500" rel="stylesheet">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
 
 <body>
   <div id="random" class="text-center">
     <a href="https://en.wikipedia.org/wiki/Special:Random"> get random article </a>
   </div>
-  
+
   <div id="text-box" class="text-center">
-    text box goes here
+    <form action="/action_page.php">
+      <input id="search-box" type="text" placeholder="Search Wikipedia" "">
+    </form>
   </div>
   <div id="button" class="text-center">
-    button for search submit goes here
+    <button>
+      <i class="fa fa-search" aria-hidden="true" style="font-size: 100px; color: white"></i>
+    </button>
   </div>
-  
+
   <div id="signature" class="text-center">
     Created by anhtu07
   </div>
 </body>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
 
-  
+    <script src="js/index.js"></script>
+
 </body>
 </html>
