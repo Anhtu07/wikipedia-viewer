@@ -13,10 +13,10 @@ $(document).ready(function() {
         var page_link = json[3];
         for (var i = 0; i < page_titles.length; i++) {
           content +=
-            "<div style = 'font-size: 10px; background-color: #D3D3D3; text-align:left; margin-left: 7%; margin-right: 7%; margin-top: 30px; border-style: solid; border-right: 5px; border-top: 5px; border-bottom: 5px; border-radius: 2px'> <a href = " +
+            "<div style = 'font-size: 13px; background-color: #D3D3D3; text-align:left; margin-left: 12%; margin-right: 12%; margin-top: 30px; border-style: solid; border-right: 0px; border-top: 0px; border-bottom: 0px; border-radius: 2px'> <a href = " +
             page_link[i] +
             ">" +
-            "<h1 style='font-size: 75%'>" +
+            "<h1 style='font-size: 85%; padding : 10 0 10 5 px'>" +
             page_titles[i] +
             "</h1>" +
             "</a>" +
@@ -48,18 +48,18 @@ document
           var page_descriptions = json[2];
           var page_link = json[3];
           for (var i = 0; i < page_titles.length; i++) {
-            content +=
-              "<div style = 'font-size: 10px; background-color: #D3D3D3; text-align:left; margin-left: 7%; margin-right: 7%; margin-top: 30px; border-style: solid; border-right: 5px; border-top: 5px; border-bottom: 5px; border-radius: 2px'> <a href = " +
-              page_link[i] +
-              ">" +
-              "<h1 style='font-size: 75%'>" +
-              page_titles[i] +
-              "</h1>" +
-              "</a>" +
-              "<p>" +
-              page_descriptions[i] +
-              "</p>" +
-              "</div>";
+              content +=
+            "<div style = 'font-size: 13px; background-color: #D3D3D3; text-align:left; margin-left: 12%; margin-right: 12%; margin-top: 30px; border-style: solid; border-right: 0px; border-top: 0px; border-bottom: 0px; border-radius: 2px'> <a href = " +
+            page_link[i] +
+            ">" +
+            "<h1 style='font-size: 85%; padding : 10 0 10 5 px'>" +
+            page_titles[i] +
+            "</h1>" +
+            "</a>" +
+            "<p>" +
+            page_descriptions[i] +
+            "</p>" +
+            "</div>";
           }
           $("#button").html(content);
         }

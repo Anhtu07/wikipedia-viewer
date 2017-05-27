@@ -1,31 +1,53 @@
 body {
-  color: #404040;
-  background-repeat: no-repeat;
-  font-family: 'Ubuntu', sans-serif;
+  background-color: #F5F5F5;
+  font-family: 'Rammetto One', cursive;
 }
 
-a:link,
-a:visited,
-a:hover {
-  color: #404040;
-  text-decoration: no-underline;
-  font-size: 25px;
+#main {
+  text-align: center;
+  background-color: white;
+  padding : 25px;
+  margin-top: 20px;
+  color: #555
 }
 
-input{
-   text-align:center;
+hr {
+  width: 60%;
+  height: 4px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #555;
+  border: 0 none;
 }
 
-form {
-  margin-left: 15%;
-  margin-right: 15%;
-}
-#random {
-  margin-top: 50px;
-  margin-bottom: 50px;
+#side_nav a {
+  left : -105px;
+  transition : 0.3s;
+  padding : 20px;
+  padding-right : 2cm;
+  width : 125px;
+  text-decoration : none;
+  font-size: 20px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+  position : absolute;
 }
 
-button {
-  text-decoration: none;
-  border: none;
+#side_nav a:hover {
+  left: 0;
+}
+
+#online {
+    top: 20px;
+    background-color: #4CAF50;
+}
+
+#offline {
+    top: 89px;
+    background-color: #2196F3;
+}
+
+#all {
+    top: 158px;
+    background-color: #f44336;
 }
